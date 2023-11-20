@@ -16,5 +16,5 @@ Download [pre-trained model on Places2](https://drive.google.com/file/d/1zLkKixP
 ### Usage
 Run Test:
 ```
-    $ python demo.py --path CMT.pth(put downloaded model path) --data samples
+    $ python demo.py --ckpt CMT.pth(put downloaded model path) --img_path ./samples/test_img --mask_path ./samples/test_mask --output_path ./samples/results
 ```
